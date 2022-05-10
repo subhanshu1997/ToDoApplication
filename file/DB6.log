@@ -1,0 +1,2 @@
+/*C2*/SET SCHEMA PUBLIC
+CREATE TABLE task (id INTEGER not NULL,  username VARCHAR(255),  taskname VARCHAR(255),  description VARCHAR(255),  lastupdate DATETIME,  completed INTEGER,  PRIMARY KEY ( id ))
